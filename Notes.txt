@@ -1,0 +1,34 @@
+get new icons for index.js:
+```
+export const features = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "UV Protection",
+    content:
+      "Block up to 99% of harmful UV rays, protecting your interiors and reducing fading on furnishings.",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "Heat Reduction",
+    content:
+      "Lower the amount of heat transmitted through your windows—cutting down on cooling costs while keeping your indoor spaces comfortable.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Privacy Enhancement",
+    content:
+      "Enjoy 100% privacy with our reflective films designed for secure, private areas without sacrificing natural light.",
+  },
+  {
+    id: "feature-4",
+    icon: glareIcon,
+    title: "Glare Reduction",
+    content:
+      "Reduce glare effectively while preserving your view, ensuring a comfortable and visually appealing environment.",
+  },
+];
+```
+

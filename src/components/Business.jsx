@@ -8,7 +8,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
       <img
         src={icon}
-        alt='icon'
+        alt={`${title} icon`}
         className='w-[50%] h-[50%] object-contain'
       />
     </div>
@@ -27,12 +27,14 @@ const Business = () => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>we'll handle the money.</h2>
+        <h2 className={styles.heading2}>
+          Transform Your Windows <br className='sm:block hidden'/>into Works of Art.
+        </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, 
-          you can improve your financial life by building credit,
-          earning rewards and saving money.
-          But with hundreds of credit cards on the market.
+          At Mark Designs, we are passionate about transforming your windows into works of art.
+          Our Ottawa-based startup focuses on delivering top-notch window privacy solutions
+          that not only enhance your space aesthetically but also improve energy efficiency and security.
+          Discover how our innovative films reduce heat, block UV rays, minimize glare, and offer complete privacy.
         </p>
         <Button styles='mt-10'/>
       </div>

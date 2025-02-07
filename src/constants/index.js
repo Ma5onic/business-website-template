@@ -12,7 +12,8 @@ import {
   dropbox, 
   send, 
   shield, 
-  star
+  star,
+  discount
 } from "../assets";
 
 export const navLinks = [
@@ -25,36 +26,43 @@ export const navLinks = [
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "CTA",
+    title: "Contact Us",
   },
-  {
+/*   {
     id: "clients",
     title: "Clients",
-  },
+  }, */
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "UV Protection",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Block up to 99% of harmful UV rays, protecting your interiors and reducing fading on furnishings.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Heat Reduction",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Lower the amount of heat transmitted through your windows—cutting down on cooling costs while keeping your indoor spaces comfortable.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Privacy Enhancement",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Enjoy 100% privacy with our reflective films designed for secure, private areas without sacrificing natural light.",
+  },
+  {
+    id: "feature-4",
+    icon: discount, // TODO: Replace with a dedicated glare icon when available
+    title: "Glare Reduction",
+    content:
+      "Reduce glare effectively while preserving your view, ensuring a comfortable and visually appealing environment.",
   },
 ];
 
@@ -88,18 +96,23 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "UV protection",
+    value: "99%",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Heat Reduction",
+    value: "84%",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Glare Reduction",
+    value: "92%",
+  },
+  {
+    id: "stats-4",
+    title: "Privacy Enhancement",
+    value: "100%",
   },
 ];
 
@@ -109,23 +122,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.markdesigns.onrender.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.markdesigns.onrender.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.markdesigns.onrender.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.markdesigns.onrender.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.markdesigns.onrender.com/terms-and-services/",
       },
     ],
   },
@@ -134,23 +147,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.markdesigns.onrender.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.markdesigns.onrender.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.markdesigns.onrender.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.markdesigns.onrender.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.markdesigns.onrender.com/newsletters/",
       },
     ],
   },
@@ -159,11 +172,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.markdesigns.onrender.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.markdesigns.onrender.com/become-a-partner/",
       },
     ],
   },
